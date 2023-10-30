@@ -1,0 +1,180 @@
+/**{
+    border: 1px dashed red;
+}*/
+html{
+    background-color: #1c5e25;
+    width: 1280px;
+    margin: 0 auto;
+}
+body{
+    width: 100%; /*Ancho de la pagina web, la altura es automatica*/
+    height: auto;
+    margin: 0 auto;
+    background-color: #ecffec;
+    font-family: 'Poppins';
+}
+/***************************************************************************************************/
+/* Estilos de menú */
+nav {
+    width: 100%;
+    height: 80px; /*Altura del menu*/
+    background-color: rgb(0, 48, 10);
+}
+nav ul {
+    width: 25%; /*(320/1280*100)=25%*/
+    list-style: none;
+    float: right;
+}
+nav li {
+    width: 25%; /*(80/320*100)=25*/
+    padding: 3.125%; /* (10/320*100) = 3.125%*/
+    margin-right: 12.5%; /*(40/320*100)=12.5%*/
+    background-color: rgb(80, 203, 78);
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+}
+nav a , a:visited{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+/***************************************************************************************************/
+/* Encabezado */
+header {
+    padding: 100px ; /* Altura del encabezado*/
+    height: 50px;
+    background-image: url('img/estanterias.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    width: 70.31%; /*(900/1280*100)=70.31%*/
+    margin-top: 0%;
+    margin-left: 14.84%;/*(190/1280*100)=14.84%*/
+    color: #0c3912;
+}
+/***************************************************************************************************/
+/* Contenedores de información */
+span{
+    font-weight: bold;
+    color: green;
+}
+h1{
+    margin-left: 7.03125%; /*(90/1280*100)=7.03125%*/
+}
+hr{
+    width: 50.625%; /*(648/1280 * 100)= 50.625%*/
+    margin-left: 7.03125%; /*(90/1280 * 100)= 7.03125%*/
+    border: 4px solid rgb(2, 142, 14);
+    /*La altura del hr = 5px (1px, por defecto + 4 px del border)*/
+    /*Ancho = 648px (640px del width + 8px del border)*/
+}
+/* Parrafos, que contiene informacion sobre la pagina Web */
+p{
+    width: 66.40625%; /*(850/1280*100)=66.40625%*/
+    height: auto;
+    margin-left: 10.588%; /*(90/850*100)=10.588%*/
+    font-size: 20px;
+}
+/***************************************************************************************************/
+/* Frase para concienciarnos, junto a su imagen */
+#conciencia{
+    width: 85.94%;/*(1100/1280 * 100)= 85.94%*/
+    height: auto;
+    margin-left:7.03125%;/*(90/1280 * 100)= 7.03125%*/
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+}
+#imagen-intro {
+    width: 39.06%; /*(500/1280 * 100) = 39.06%*/
+    height: 200px;
+    margin-left: 30.46875%; /*(390/1280 * 100) = 30.46875%*/
+}
+/***************************************************************************************************/
+/*Estilos para la tabla*/
+table {
+    width: 58.59%; /* (750/1280 * 100)= 58.59%*/
+    height: 150px; 
+    margin: 1.5625%; /* (20/1280 * 100)= 1.5625%*/
+    margin-left: 19.14%; /* (245/1280 * 100)= 19.14%*/
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-left: 1.335%; /*(748.833/10*100=1.335%)*/
+    border: 2px solid #007208;
+    text-align: left;
+}
+
+th {
+    background-color: #a3e9b9;
+}
+
+tr{
+    background-color: #f1fcf0;
+}
+/***************************************************************************************************/
+/*Estilos del Formulario*/
+form {
+    width: 57.03125%; /*(730/1280 * 100) = 57.03125%*/
+    height: 360px;
+    margin-left: 19.14%; /*(245/1280 * 100) = 19.14%*/
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 2.74%; /*(20/730 * 100) = 2.74%*/
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid rgb(80, 203, 78);;
+}
+input[type="text"], textarea{
+    width: 27.39726%; /*(200/730 * 100) = 27.39726%*/
+    padding: 1.37%; /*(10/730 * 100) = 1.37%*/
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+input[type="submit"]{
+    width: 9.589%; /*(70/730 * 100) = 9.589%*/
+    height: 20px;
+    margin-left: 89.041%; /*(650/730 * 100) = 89.041%*/
+}
+textarea{
+    width: 47.9452%; /*(350/730 * 100) = 47.9452%*/
+    height: 40px;
+    max-width: 97.26%; /*(710/730 * 100) = 97.26%*/
+    max-height: 50px;
+}
+/***************************************************************************************************/
+/*Estilos del footer*/
+footer{
+    width: 96.875%; /*(1240/1280 * 100) = 96.875%*/
+    height: 40px;
+    padding: 1.6129%; /*(20/1280 * 100) = 1.6129%*/
+    background-color: rgb(0, 48, 10);
+    color: white;
+    
+}
+
+/*************** PAGINA NOTICIAS ********************/
+#noticias{
+    margin: 50px;
+}
+#noticias div{
+    padding: 50px;
+    border-radius: 15px;
+}
+#noticias div:hover{
+    background-color: #beffb6;
+    border: solid 1px black;
+}
+#noticias a{
+    text-decoration: none;
+    color: rgb(9, 155, 9);
+}
+#noticias a:visited{
+    text-decoration: none;
+    color: rgb(6, 80, 6);
+}

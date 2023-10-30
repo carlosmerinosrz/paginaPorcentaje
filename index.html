@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <link rel="stylesheet" href="stylePorcentaje.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IMPACTO MEDIO AMBIENTAL COMPRAS ONLINE</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="Noticias.html">Noticias</a></li>
+            </ul>
+        </nav>
+        <header  id="inicio">
+            <h1>IMPACTO MEDIO AMBIENTAL COMPRAS ONLINE</h1>
+        </header>
+        <h1>¿De que trata?</h1>
+        <hr>
+        <p>
+            El <span>impacto ambiental online</span> se refiere a los efectos que las actividades 
+            y operaciones en línea tienen en el medio ambiente. Estos impactos pueden 
+            incluir el consumo de energía de los centros de datos que almacenan y 
+            transmiten información a través de <span>Internet</span>, la fabricación y disposición 
+            de dispositivos electrónicos utilizados para acceder a la web, así como la
+             gestión de residuos electrónicos.
+        </p>
+        <p id="conciencia">
+            ``Nadie es ambientalista de nacimiento. Es solo tu camino, tu vida y tus viajes lo que te despierta´´ <br>Yann Arthus-Bertrand
+        </p>
+        <img id="imagen-intro" src="../img/cajas.jpg"></img>
+        <br>
+        <h1>Estadisticas impacto medio ambiental</h1>
+        <hr>
+        <p>
+            La facilidad de <span>comprar online </span>ha provocado que algunos consumidores se olviden de que 
+            estas también <span>contaminan, y mucho</span>. Según un informe de Statista sobre la sostenibilidad
+            e-commerce las emisiones mundiales de CO2 del transporte marítimo internacional en 2019
+            fueron de <span>710 millones de toneladas de CO2.</span> Y se prevé que para 2030 comiencen a 
+            descender hasta los 658 millones de toneladas de CO2.
+        </p>
+        <table>
+            <tr>
+              <th>Categoría</th>
+              <th>2019</th>
+              <th>2030</th>
+            </tr>
+            <tr>
+              <td>Vehículos de Reparto (en millones)</td>
+              <td>53</td>
+              <td>72</td>
+            </tr>
+            <tr>
+              <td>Emisiones (Millones de toneladas de CO2)</td>
+              <td>19</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>Tiempo Medio de Desplazamiento (Min)</td>
+              <td>53</td>
+              <td>64</td>
+            </tr>
+        </table>
+        <p>
+            <span>aviones (8%), buses (7%), vehículos de dos/tres ruedas (3%) y vehículos de comerciales ligeros (5%).</span><br>
+            Sin embargo, no solo contamina el transporte marítimo, también lo hacen los camiones (22%),
+            Aunque antes hemos hablado del descenso de contaminación en los envíos a través del transporte
+            marítimo, no será una norma en logística. El crecimiento de las ventas a través del canal online
+            para los próximos años trae consigo un pronóstico negativo para las emisiones de CO2. Statista
+            pronostica que para 2030 los vehículos de reparto aumenten a 7,2 millones y esto producirá que 
+            las emisiones aumenten hasta los 25 millones de toneladas de CO2.
+        </p>
+        <h1>Formulario </h1>
+        <hr>
+            <form action="formulario.php" method="post" target="_blank">
+                <div>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" maxlength="40" placeholder="Nombre, Apellidos">
+                </div>
+                <div>
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="text" id="email" name="email" maxlength="80" placeholder="ejemplo@gmail.com">
+                </div>
+                <div>
+                    <label for="comentario">Comentarios:</label><br>
+                    <textarea id="comentario" name="comentario" maxlength="200" placeholder="Maximo 200 caracteres"></textarea>
+                </div>
+                <div>
+                    <label class="radio-label">¿Está de acuerdo con el impacto ambiental de las compras en línea?</label>
+                    <input type="radio" id="si" name="impacto[]" value="si">
+                    <label for="si">Sí</label>
+                    <input type="radio" id="no" name="impacto[]" value="no">
+                    <label for="no">No</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="terminos[]" value="terminos">
+                    <label for="terminos">Acepta los terminos de seguridad</label>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        <footer>
+            Si necesita mas informacion pongase con contacto con nosotros a través del 934 567 334
+        </footer>
+    </body>
+</html>
